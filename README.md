@@ -26,7 +26,6 @@ This repository is a complete Java learning guide for beginners and intermediate
 - ✅ Java Networking (Socket, ServerSocket, URL, etc.)
 - ✅ Java Reflection
 - ✅ Java Collections Framework
-- ✅ Java 5 Features (Generics, Enum, Annotations, Autoboxing, etc.)
 - ✅ Java 8 Features (Lambda, Streams, Functional Interfaces, etc.)
 - ✅ Java 11 Features (var in lambda, String methods, Files.readString, etc.)
 - ✅ Java 17 Features (sealed classes, pattern matching for switch, etc.)
