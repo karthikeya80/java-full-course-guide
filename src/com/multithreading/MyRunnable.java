@@ -6,18 +6,23 @@ public class MyRunnable extends Thread {
 
 		MyRunnable t = new MyRunnable();
 		t.start();
+		try {
+			t.join();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	    System.out.println("Main thread resumes");	}
 
-	}
 	public void run() {
-		for(int i=0; i<=3;i++) {
+		for (int i = 0; i < 3; i++) {
 			System.out.println("Thread running : " + i);
 			try {
 				Thread.sleep(1200);
-			}catch(InterruptedException e) {
-				
+			} catch (Exception e) {
+
 			}
 		}
-		
+
 	}
 
 }
